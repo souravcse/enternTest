@@ -1,0 +1,61 @@
+.main {
+    width: 100%;
+    background: dodgerblue;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background: red;
+}
+
+.header-top {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.header-logo {
+    width: 250px;
+    height: 100%;
+}
+
+.header-news {
+    flex: 1;
+    display: flex;
+}
+
+.header-news-item {
+    width: 32%;
+    display: flex;
+}
+
+.header-news-item-img {
+    width: 100px;
+}
+
+.header-news-item-img img {
+    width: 100%
+}
+
+.header-news-item-content {
+    flex: 1;
+}
+
+.header-bottom {
+    width: 100%;
+    height: 50px;
+    background: chartreuse;
+}
+
+.header-bottom > ul {
+}
+
+.header-bottom > ul > li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header-bottom > ul > li > a {
+    text-decoration: none;
+}
